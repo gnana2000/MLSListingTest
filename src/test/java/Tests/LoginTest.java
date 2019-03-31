@@ -38,6 +38,7 @@ public class LoginTest {
         open("https://mfrmls.idp.clareity.net/idp/Authn/UserPassword");
         sleep(1000);
         login.setValueToUserNameField("261558895");
+        sleep(1000);
         login.setValuePasswordField("98Ashwin!");
         sleep(1000);
         login.clickEnterButton();
