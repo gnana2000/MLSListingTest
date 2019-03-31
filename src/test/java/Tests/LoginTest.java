@@ -8,6 +8,7 @@ import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.sleep;
@@ -25,7 +26,9 @@ public class LoginTest {
         ChromeDriverManager.chromedriver().version("2.46").setup();
         Selenide.clearBrowserCookies();
         Configuration.timeout = 10000;
-        Configuration.browserSize = "1920x1080";
+        Configuration.startMaximized = true;
+
+
 
     }
 
