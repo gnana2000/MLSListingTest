@@ -38,7 +38,7 @@ public class LoginTest {
         login.setValuePasswordField("98Ashwin!");
         sleep(1000);
         login.clickEnterButton();
-        sleep(5000);
+        sleep(10000);
         homePage.CheckVisibiliyOfMatrixBttn();
 
     }
