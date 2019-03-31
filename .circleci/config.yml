@@ -31,7 +31,8 @@ jobs: # a collection of steps
         when: always
 
     - store_artifacts:
-        path: /build/reports/tests
+        path: ~/repo/build/reports/
+        destination: ~/reports
 
 
 workflows:
