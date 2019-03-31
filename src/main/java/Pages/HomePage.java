@@ -10,9 +10,9 @@ import static org.openqa.selenium.By.xpath;
 
 public class HomePage {
 
-    private SelenideElement Logo  = $(xpath("//img[@src='/matrix/images/BoardLogos/MFR_Logo_Header_V2.png']"));
+    private SelenideElement Logout  = $(xpath("//a[contains(text(),'Logout')]"));
 
-    public void CheckVisibiliyOfLogo(){Logo.shouldBe(Condition.visible);}
+    public void CheckVisibiliyOfLogout(){Logout.shouldBe(Condition.visible);}
     public SelenideElement QuickBttn = $(xpath("//span[contains(text(),'Quick')]"));
 
     public SelenideElement ResidentialDropdwn = $(xpath("//href=\"/Matrix/Search/Residential/Quick"));
