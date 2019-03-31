@@ -41,7 +41,7 @@ public class LoginTest {
         login.setValuePasswordField("98Ashwin!");
         sleep(1000);
         login.clickEnterButton();
-        sleep(10000);
+        sleep(20000);
         homePage.CheckVisibiliyOfLogout();
 
     }
