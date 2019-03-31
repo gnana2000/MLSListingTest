@@ -35,10 +35,6 @@ workflows:
   commit-workflow:
     jobs:
     - build
-  scheduled-workflow:
-    triggers:
       filters:
         branches:
           only: master
-    jobs:
-    - build
