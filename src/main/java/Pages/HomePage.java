@@ -10,7 +10,7 @@ import static org.openqa.selenium.By.xpath;
 
 public class HomePage {
 
-    private SelenideElement Logout  = $(xpath("//a[contains(text(),'Logout')]"));
+    private SelenideElement Logout  = $(xpath("//*[contains(text(),'Logout')]"));
 
     public void CheckVisibiliyOfLogout(){Logout.shouldBe(Condition.visible);}
     public SelenideElement QuickBttn = $(xpath("//span[contains(text(),'Quick')]"));
