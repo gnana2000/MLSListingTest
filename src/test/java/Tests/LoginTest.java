@@ -36,12 +36,12 @@ public class LoginTest {
     public void LoginTest() {
 
         open("https://mfrmls.idp.clareity.net/idp/Authn/UserPassword");
-
+        sleep(1000);
         login.setValueToUserNameField("261558895");
         login.setValuePasswordField("98Ashwin!");
         sleep(1000);
         login.clickEnterButton();
-        sleep(20000);
+        sleep(1000);
         homePage.CheckVisibiliyOfLogout();
 
     }
