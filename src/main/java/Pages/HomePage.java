@@ -15,7 +15,7 @@ public class HomePage {
     public void CheckVisibiliyOfMatrixBttn(){MatrixButton.shouldBe(Condition.visible);}
     public SelenideElement QuickBttn = $(xpath("//span[contains(text(),'Quick')]"));
 
-    public SelenideElement ResidentialDropdwn = $(xpath("//href="/Matrix/Search/Residential/Quick"));
+    public SelenideElement ResidentialDropdwn = $(xpath("//href=\"/Matrix/Search/Residential/Quick"));
     public SelenideElement ZipField = $(xpath("//*[@id=\"Fm23_Ctrl2097_LB_TB\"]"));
 
 
