@@ -39,7 +39,7 @@ public class LoginTest {
         sleep(1000);
         login.clickEnterButton();
         sleep(10000);
-        homePage.CheckVisibiliyOfMatrixBttn();
+        homePage.CheckVisibiliyOfLogo();
 
     }
 
