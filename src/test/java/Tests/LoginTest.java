@@ -25,6 +25,7 @@ public class LoginTest {
         ChromeDriverManager.chromedriver().version("2.46").setup();
         Selenide.clearBrowserCookies();
         Configuration.timeout = 10000;
+        Configuration.browserSize = "1920x1080";
 
     }
 
